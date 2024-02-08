@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js TailwindCSS Typescript
+
+
+https://github.com/Seyma44/Neubrutalism-website/assets/3766249/03478c64-f65b-4d44-ad4e-bc8881300f8d
+
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- TypeScript
 
 ## Getting Started
 
