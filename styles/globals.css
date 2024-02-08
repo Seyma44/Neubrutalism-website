@@ -1,27 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+*,
+html {
+  font-family: "Concert One", sans-serif;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #000;
+}
+
+h1 {
+  -webkit-text-stroke: 1px black;
+}
+
+.yellow-text {
+  color: yellow; 
+  text-shadow: 4px 4px 8px black; 
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.card-border {
+  border: 5px solid black;
+}
+
+:root {
+  color-scheme: dark;
 }
